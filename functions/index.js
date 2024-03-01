@@ -89,6 +89,7 @@ async function startTimer() {
     const testData = {
       BetAllowed: true,
       timerstart: true,
+      timer:0,
       isWait: false
     };
   
@@ -116,8 +117,8 @@ async function startTimer() {
                     };
                     docRef.update(testData_1);
 
-                    setTimeout(updateWaiting, 3000);
-                    // setTimeout(startTimer, 10000);
+                    // setTimeout(updateWaiting, 6000);
+                    // setTimeout(startTimer, 15000);
 
                 }
             }, 1000 * a);
